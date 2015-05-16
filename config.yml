@@ -78,6 +78,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=264
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows

@@ -1,7 +1,7 @@
 series:
   h264:
-    #- "Battle Creek":
-        #alternate_name: "Батл Крик"
+    - "Battle Creek":
+        alternate_name: "Батл Крик"
     - "Downton Abbey":
         alternate_name: "Аббатство Даунтон"
     - "Bones":
