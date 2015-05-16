@@ -1,0 +1,75 @@
+series:
+  '480p webdl':
+    - 'Intelligence 2014':
+        alternate_name: 'Искусственный интеллект'
+    - 'Fleming: The Man Who Would Be Bond':
+        alternate_name: 'Флеминг: человек, который хотел стать Бондом'
+    - 'Being Human US':
+        alternate_name: 'Быть человеком'
+    - 'The 100':
+        alternate_name: 'Сотня'
+    - 'Black Sails':
+        alternate_name: 'Черные паруса'
+    - 'Cult':
+        alternate_name: 'Культ'
+    - 'Hawaii Five-0':
+        alternate_name: 'Полиция Гавайев'
+    - 'Klondike 2014':
+        alternate_name: 'Клондайк'
+    - "Marvel's Agents of S.H.I.E.L.D.":
+        alternate_name: "Агенты Щ.И.Т."
+    - 'Homeland':
+        alternate_name: 'Родина'
+    - 'Revolution':
+        alternate_name: 'Революция'
+    - 'Breaking Bad':
+        alternate_name: 'Во все тяжкие'
+    - 'Hell on Wheels':
+        alternate_name: 'Ад на колесах'
+    - 'The Borgias':
+        alternate_name: 'Борджиа'
+    - 'Beauty and the Beast':
+        alternate_name: 'Красавица и чудовище'
+    - 'Warehouse 13':
+        alternate_name: 'Хранилище 13'
+    - 'Under the Dome':
+        alternate_name: 'Под куполом'
+    - 'Arrow':
+        alternate_name: 'Стрела'
+    - 'Mob City':
+        alternate_name: 'Город гангстеров'
+    - 'Believe':
+        alternate_name: 'Верь'
+    - 'Chosen':
+        alternate_name: 'Избранный'
+    - 'From Dusk Till Dawn':
+        alternate_name: 'От заката до рассвета'
+    - 'Turn':
+        alternate_name: 'Поворот'
+    - 'Crossbones':
+        alternate_name: 'Череп и кости'
+    - 'Defiance':
+        alternate_name: 'Непокорная земля'
+    - 'Dominion':
+        alternate_name: 'Доминион'
+    - 'The Last Ship':
+        alternate_name: 'Последний корабль'
+    - "Legends 2014":
+        alternate_name: 'Легенды'
+    - 'Houdini':
+        alternate_name: 'Гудини'
+    - 'The Blacklist':
+        alternate_name: 'Черный список'
+    - 'Peaky Blinders':
+        alternate_name: 'Острые козырьки'
+    - 'The Flash 2014':
+        alternate_name: 'Флэш'
+    - "Agent Carter":
+        alternate_name: 'Агент Картер'
+    - '12 Monkeys':
+        alternate_name: '12 обезьян'
+    - 'Helix':
+        alternate_name: 'Спираль'
+  720p:
+    - "A Young Doctor's Notebook":
+        alternate_name: "Записки юного врача"
