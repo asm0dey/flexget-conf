@@ -2,6 +2,10 @@ series:
   h264:
     - "Supergirl":
         alternate_name: "Супергёрл"
+    - "The Hollow Crown":
+        alternate_name: "Пустая корона"
+    - "Texas Rising":
+        alternate_name: "Восстание Техаса"
     - "Battle Creek":
         alternate_name: "Батл Крик"
     - "Downton Abbey":
