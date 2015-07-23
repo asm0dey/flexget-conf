@@ -85,7 +85,7 @@ tasks:
     include: baibako.yml
   Lostfilm:
     verify_ssl_certificates: no
-    proxy: http://46.28.202.209 :8080
+    #proxy: http://46.28.202.209 :8080
     template:
       - tvshows
     headers:
@@ -94,12 +94,20 @@ tasks:
     manipulate:
       - title:
           replace:
+            regexp: MP4
+            format: 720p
+      - title:
+          replace:
             regexp: \)\.\s\(
             format: ') [webdl 480p]. ('
       - title:
           replace:
             regexp: '[0-9]\.\s\('
             format: ') [webdl 480p]. ('
+      - title:
+          replace:
+            regexp: '[^\]]\.\s\(S'
+            format: '. [webdl 480p]. (S'
     urlrewrite:
       lostfilm:
         regexp: 'http://lostfilm.tv/download.php\?(?P<details>.*)'

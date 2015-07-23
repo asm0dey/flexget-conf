@@ -50,8 +50,6 @@ series:
         alternate_name: 'Череп и кости'
     - 'Defiance':
         alternate_name: 'Непокорная земля'
-    - 'Dominion':
-        alternate_name: 'Доминион'
     - 'The Last Ship':
         alternate_name: 'Последний корабль'
     - "Legends 2014":
@@ -68,10 +66,10 @@ series:
         alternate_name: 'Агент Картер'
     - '12 Monkeys':
         alternate_name: '12 обезьян'
-    - 'Dark Matter'
+    - 'Extant':
+        alternate_name: 'Род человеческий'
+    - 'Dark Matter':
         alternate_name: 'Темная материя'
-    - 'Helix':
-        alternate_name: 'Спираль'
   720p:
     - "A Young Doctor's Notebook":
         alternate_name: "Записки юного врача"
