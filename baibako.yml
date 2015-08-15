@@ -22,6 +22,8 @@ series:
         alternate_name: "Скорпион"
     - "A to Z":
         alternate_name: "От А до Я"
+    - "Complications":
+        alternate_name: "Осложнения"
     - "The Brink":
         alternate_name: "На грани"
     - "Ballers":
@@ -30,7 +32,5 @@ series:
         alternate_name: "Галлиполи"
     - "Humans":
         alternate_name: "Люди"
-    - "Killjoys":
-        alternate_name: "Килджой"
     - "The Librarians (2014)":
         alternate_name: "Библиотекари /The Librarians"
