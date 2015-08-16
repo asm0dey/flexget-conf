@@ -8,7 +8,10 @@ templates:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
       items: 200
-    deluge: yes
+    #deluge: yes
+    transmission:
+      username: transmission
+      password: transmission
     manipulate:
       - url:
           replace:
@@ -72,6 +75,22 @@ templates:
       # smtp_ssl: yes
       smtp_tls: true
 tasks:
+  migrate_deluge:
+    manual: yes # do not run this task automatically - only with flexget execute --tasks migrate_deluge
+    from_deluge:
+        config_path: "/home/xbmc/.config/deluge" # you need to change path to another one - check your deluge config
+    set:
+      path: "{{deluge_path}}" # to be sure that transmission downloads to the same path as deluge
+    seen: local
+    accept_all: yes
+    deluge: no
+    transmission:
+      username: transmission
+      password: transmission
+    disable:
+      - seen
+      - seen_info_hash
+
   Baibako:
     #manipulate:
       #- title:
