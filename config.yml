@@ -78,7 +78,7 @@ tasks:
   migrate_deluge:
     manual: yes # do not run this task automatically - only with flexget execute --tasks migrate_deluge
     from_deluge:
-        config_path: "/home/xbmc/.config/deluge" # you need to change path to another one - check your deluge config
+      config_path: "/home/xbmc/.config/deluge" # you need to change path to another one - check your deluge config
     set:
       path: "{{deluge_path}}" # to be sure that transmission downloads to the same path as deluge
     seen: local
