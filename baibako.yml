@@ -1,5 +1,19 @@
 series:
   h264:
+    - "You, Me and the Apocalypse":
+        alternate_name: "Ты, я и конец света"
+    - "Dr. Ken":
+        alternate_name: "Доктор Кен"
+    - "Grandfathered":
+        alternate_name: "Дедушка"
+    - "Code Black":
+        alternate_name: "Реанимация"
+    - "Quantico":
+        alternate_name: "Куантико"
+    - "Rosewood":
+        alternate_name: "Роузвуд"
+    - "Life in Pieces":
+        alternate_name: "Жизнь в деталях"
     - "The Bastard Executioner":
         alternate_name: "Палач-бастард"
     - "Supergirl":

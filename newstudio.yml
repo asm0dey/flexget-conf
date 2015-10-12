@@ -1,11 +1,15 @@
 series:
   480p:
+    - "The Grinder":
+        alternate_name: "Дробилка"
+    - "Blood & Oil":
+        alternate_name: "Кровь и нефть"
+    - "The Player":
+        alternate_name: "Игрок"
     - "Limitless":
         alternate_name: "Области тьмы"
     - 'Scandal 2012':
         alternate_name: 'Скандал'
-    - 'Continuum':
-        alternate_name: 'Континуум'
     - 'Royal Pains':
         alternate_name: 'Пациент всегда прав'
     - 'Trophy Wife':
@@ -66,8 +70,6 @@ series:
         alternate_name: 'Замри и гори'
     - 'Tyrant 2014':
         alternate_name: 'Тиран'
-    - 'The Leftovers':
-        alternate_name: 'Остатки'
     - "You're the Worst":
         alternate_name: 'Ты - Отстой'
     - "The Knick":
@@ -98,8 +100,6 @@ series:
         alternate_name: 'Уэйуорд Пайнс'
     - 'Gangland Undercover':
         alternate_name: 'Под прикрытием'
-    - 'iZombie':
-        alternate_name: 'яЗомби'
     - 'The Messengers (2015)':
         alternate_name: 'Посланники'
     - 'How to Get Away with Murder':
