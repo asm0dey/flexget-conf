@@ -75,22 +75,6 @@ templates:
       # smtp_ssl: yes
       smtp_tls: true
 tasks:
-  migrate_deluge:
-    manual: yes # do not run this task automatically - only with flexget execute --tasks migrate_deluge
-    from_deluge:
-      config_path: "/home/xbmc/.config/deluge" # you need to change path to another one - check your deluge config
-    set:
-      path: "{{deluge_path}}" # to be sure that transmission downloads to the same path as deluge
-    seen: local
-    accept_all: yes
-    deluge: no
-    transmission:
-      username: transmission
-      password: transmission
-    disable:
-      - seen
-      - seen_info_hash
-
   Baibako:
     #manipulate:
       #- title:
@@ -188,7 +172,7 @@ tasks:
   tvfedor:
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
-    # accept_all: yes
+      accept_all: yes
     template:
       - mailpack
     rss: http://litr.cc/rss/download/***REMOVED***
@@ -198,6 +182,9 @@ tasks:
       username: 'finkelshteinp'
       password: 'zk.,k.vehxbrf'
     urlrewrite:
+      rutor:
+          regexp: 'http://zerkalo-rutor.org/torrent/(?P<id>)' 
+          format: 'http://zerkalo-rutor.org/download/\g<id>'
       rutor:
         regexp: 'http://rutor.org/torrent/(?P<id>)' 
         format: 'http://d.rutor.org/download/\g<id>'
