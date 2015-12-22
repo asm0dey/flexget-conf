@@ -81,7 +81,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=264
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=352
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows
@@ -183,8 +183,8 @@ tasks:
       password: 'zk.,k.vehxbrf'
     urlrewrite:
       rutor:
-          regexp: 'http://zerkalo-rutor.org/torrent/(?P<id>)' 
-          format: 'http://zerkalo-rutor.org/download/\g<id>'
+        regexp: 'http://zerkalo-rutor.org/torrent/(?P<id>)' 
+        format: 'http://zerkalo-rutor.org/download/\g<id>'
       rutor:
         regexp: 'http://rutor.org/torrent/(?P<id>)' 
         format: 'http://d.rutor.org/download/\g<id>'

@@ -1,5 +1,7 @@
 series:
   480p:
+    - "The Man in the High Castle":
+        alternate_name: "Человек в высоком замке "
     - "The Grinder":
         alternate_name: "Дробилка"
     - "Blood & Oil":
@@ -12,6 +14,10 @@ series:
         alternate_name: 'Скандал'
     - 'Royal Pains':
         alternate_name: 'Пациент всегда прав'
+    - "Childhood's End":
+        alternate_name: 'Конец детства'
+    - 'The Art of More':
+        alternate_name: 'Больше, чем искусство'
     - 'Trophy Wife':
         alternate_name: 'Третья жена'
     - 'Jo':
