@@ -1,3 +1,8 @@
+web_server:
+  bind: 0.0.0.0
+  port: 3539
+api: yes
+webui: yes
 schedules:
   - tasks: '*'
     interval:
@@ -81,7 +86,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=352
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=379
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows

@@ -16,12 +16,24 @@ series:
         alternate_name: "Жизнь в деталях"
     - "The Bastard Executioner":
         alternate_name: "Палач-бастард"
-    - "Superstore":
-        alternate_name: "Супермаркет"
+    - "The Family":
+        alternate_name: "Семья"
+    - "Truth Be Told":
+        alternate_name: "Люди говорят"
+    - "Red Oaks":
+        alternate_name: "Красные дубы"
+    - "Shades Of Blue":
+        alternate_name: "Оттенки синего"
+    - "The Shannara Chronicles":
+        alternate_name: "Хроники Шаннары"
+    - "Billions":
+        alternate_name: "Миллиарды"
+    - "Second Chance":
+        alternate_name: "Второй шанс"
+    - "Colony":
+        alternate_name: "Колония"
     - "The Magicians":
         alternate_name: "Волшебники"
-    - "Donny!":
-        alternate_name: "Донни!"
     - "The Expanse":
         alternate_name: "Пространство"
     - "Marvel’s Jessica Jones":
@@ -42,6 +54,8 @@ series:
         alternate_name: "Аббатство Даунтон"
     - "Bones":
         alternate_name: "Кости"
+    - "Rush Hour":
+        alternate_name: "Час пик"
     - "Delirium":
         alternate_name: "Делириум"
     - "Gang Related":
