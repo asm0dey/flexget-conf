@@ -39,8 +39,6 @@ series:
         alternate_name: 'Красавица и чудовище'
     - 'Warehouse 13':
         alternate_name: 'Хранилище 13'
-    - 'Under the Dome':
-        alternate_name: 'Под куполом'
     - 'Arrow':
         alternate_name: 'Стрела'
     - 'Mob City':
@@ -51,12 +49,8 @@ series:
         alternate_name: 'Избранный'
     - 'Turn':
         alternate_name: 'Поворот'
-    - 'Heroes Reborn':
-        alternate_name: 'Герои: Возрождение'
     - 'Crossbones':
         alternate_name: 'Череп и кости'
-    - 'Defiance':
-        alternate_name: 'Непокорная земля'
     - 'The Last Ship':
         alternate_name: 'Последний корабль'
     - "Legends 2014":
@@ -79,6 +73,8 @@ series:
         alternate_name: 'Род человеческий'
     - 'Dark Matter':
         alternate_name: 'Темная материя'
+    - "Queen of the South":
+        alternate_name: "Королева юга"
     - "Supergirl":
         alternate_name: "Супергёрл"
   720p:

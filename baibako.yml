@@ -2,26 +2,12 @@ series:
   h264:
     - "You, Me and the Apocalypse":
         alternate_name: "Ты, я и конец света"
-    - "Dr. Ken":
-        alternate_name: "Доктор Кен"
-    - "Grandfathered":
-        alternate_name: "Дедушка"
     - "Code Black":
         alternate_name: "Реанимация"
     - "Quantico":
         alternate_name: "Куантико"
     - "Rosewood":
         alternate_name: "Роузвуд"
-    - "Life in Pieces":
-        alternate_name: "Жизнь в деталях"
-    - "The Bastard Executioner":
-        alternate_name: "Палач-бастард"
-    - "The Family":
-        alternate_name: "Семья"
-    - "Truth Be Told":
-        alternate_name: "Люди говорят"
-    - "Red Oaks":
-        alternate_name: "Красные дубы"
     - "Shades Of Blue":
         alternate_name: "Оттенки синего"
     - "The Shannara Chronicles":
@@ -32,8 +18,6 @@ series:
         alternate_name: "Второй шанс"
     - "Colony":
         alternate_name: "Колония"
-    - "The Magicians":
-        alternate_name: "Волшебники"
     - "The Expanse":
         alternate_name: "Пространство"
     - "Marvel’s Jessica Jones":
@@ -44,8 +28,6 @@ series:
         alternate_name: "В пустыне смерти"
     - "Agent X":
         alternate_name: "Агент Икс"
-    - "The Hollow Crown":
-        alternate_name: "Пустая корона"
     - "Texas Rising":
         alternate_name: "Восстание Техаса"
     - "Battle Creek":
@@ -54,27 +36,31 @@ series:
         alternate_name: "Аббатство Даунтон"
     - "Bones":
         alternate_name: "Кости"
-    - "Rush Hour":
-        alternate_name: "Час пик"
+    - "The Ranch":
+        alternate_name: "Ранчо"
     - "Delirium":
         alternate_name: "Делириум"
     - "Gang Related":
         alternate_name: "Преступные связи"
-    - "The Honourable Woman":
-        alternate_name: "Благородная женщина"
     - "Scorpion":
         alternate_name: "Скорпион"
     - "A to Z":
         alternate_name: "От А до Я"
     - "Complications":
         alternate_name: "Осложнения"
+    - "Underground":
+        alternate_name: "Подземка"
+    - "Game of Silence":
+        alternate_name: "Игра в молчанку"
     - "The Brink":
         alternate_name: "На грани"
     - "Ballers":
         alternate_name: "Игроки"
     - "Gallipoli":
         alternate_name: "Галлиполи"
-    - "Jekyll and Hyde":
-        alternate_name: "Джекилл и Хайд"
+    - "Feed the Beast":
+        alternate_name: "Накорми зверя"
+    - "Private Eyes":
+        alternate_name: "Частные сыщики"
     - "Humans":
         alternate_name: "Люди"

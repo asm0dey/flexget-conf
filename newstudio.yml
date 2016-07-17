@@ -1,7 +1,7 @@
 series:
   480p:
-    - "The Man in the High Castle":
-        alternate_name: "Человек в высоком замке "
+    - "Containment":
+        alternate_name: "Карантин"
     - "The Grinder":
         alternate_name: "Дробилка"
     - "Blood & Oil":
@@ -32,8 +32,6 @@ series:
         alternate_name: 'Джо'
     - 'Crisis':
         alternate_name: 'Кризис'
-    - 'The Musketeers':
-        alternate_name: 'Мушкетеры'
     - 'Covert Affairs':
         alternate_name: 'Тайные связи'
     - 'The Good Wife':
@@ -44,8 +42,6 @@ series:
         alternate_name: 'Улица потрошителя'
     - 'Person of Interest':
         alternate_name: 'В поле зрения'
-    - 'The Client List':
-        alternate_name: 'Список клиентов'
     - 'Graceland':
         alternate_name: 'Грейсленд'
     - 'The Tomorrow People US':
@@ -110,15 +106,15 @@ series:
         alternate_name: 'Люцифер'
     - 'Blindspot':
         alternate_name: 'Слепая зона'
-    - 'Wayward Pines':
-        alternate_name: 'Уэйуорд Пайнс'
     - 'Gangland Undercover':
         alternate_name: 'Под прикрытием'
-    - 'The Messengers (2015)':
-        alternate_name: 'Посланники'
+    - 'The American West':
+        alternate_name: 'Американский запад'
     - 'How to Get Away with Murder':
         alternate_name: 'Как избежать наказания за убийство'
+    - "Cleverman":
+        alternate_name: "Клевермэн"
+    - "Roadies":
+        alternate_name: "Техкоманда"
     - "Minority Report":
         alternate_name: "Особое мнение"
-    - "Sense8":
-        alternate_name: "Восьмое чувство"

@@ -86,7 +86,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=379
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=406
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows
@@ -194,26 +194,26 @@ tasks:
         regexp: 'http://rutor.org/torrent/(?P<id>)' 
         format: 'http://d.rutor.org/download/\g<id>'
     include: tvfedor.yml
-  rutracker-films:
-    urlrewrite:
-      rutracker:
-        regexp: '^(?P<id>\d+)$'
-        format: 'http://rutracker.org/forum/viewtopic.php?t=\g<id>'
-    csv:
-      url: file:///home/xbmc/.flexget/rutracker-films.csv
-      values:
-        title: 2
-        url: 1
-        imdb_name: 2
-    thetvdb_lookup: no
-    rutracker_auth:
-      username: 'finkelshteinp'
-      password: 'zk.,k.vehxbrf'
-    imdb_lookup: yes
-    set:
-      path: '/media/sda3/Video/Films/{{title}}'
-    accept_all: yes
-    template:
-      - mailmovie
-    disable:
-      - seen_info_hash
+  #rutracker-films:
+    #urlrewrite:
+      #rutracker:
+        #regexp: '^(?P<id>\d+)$'
+        #format: 'http://rutracker.org/forum/viewtopic.php?t=\g<id>'
+    #csv:
+      #url: file:///home/xbmc/.flexget/rutracker-films.csv
+      #values:
+        #title: 2
+        #url: 1
+        #imdb_name: 2
+    #thetvdb_lookup: no
+    #rutracker_auth:
+      #username: 'finkelshteinp'
+      #password: 'zk.,k.vehxbrf'
+    #imdb_lookup: yes
+    #set:
+      #path: '/media/sda3/Video/Films/{{title}}'
+    #accept_all: yes
+    #template:
+      #- mailmovie
+    #disable:
+      #- seen_info_hash
