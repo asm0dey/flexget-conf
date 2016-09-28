@@ -9,6 +9,10 @@ schedules:
       minutes: 10
 templates:
   global:
+    telegram:
+      bot_token: '***REMOVED***'
+      recipients:
+        - username: asm0dey
     make_rss:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
@@ -22,9 +26,9 @@ templates:
           replace:
             regexp: '&amp'
             format: '&'
-    thetvdb_lookup: yes
     metainfo_series: yes
   tvshows:
+    thetvdb_lookup: yes
     template:
       - mailshow
     set:
@@ -86,7 +90,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=406
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=344
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows
@@ -125,6 +129,10 @@ tasks:
     template:
       - tvshows
     manipulate:
+      - url:
+          replace:
+            regexp: '&amp;'
+            format: '&'
       - title:
           replace:
             regexp: 'Сезон\s(\d+),\sСерия\s(\d+)'
@@ -137,7 +145,8 @@ tasks:
           replace:
             regexp: 'newstud\.io'
             format: 'newstudio.tv'
-    rss: http://newstudio.tv/rss.php?user=asm0dey&pass=***REMOVED***
+    rss:
+      url: http://localhost:5050/http%3A%2F%2Fnewstudio.tv%2Frss.php%3Fuser%3Dasm0dey%26pass%3D***REMOVED***
     include: newstudio.yml
   Alexfilm:
     template:

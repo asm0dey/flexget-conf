@@ -102,6 +102,10 @@ series:
         alternate_name: 'Шёпот'
     - 'Mr. Robot':
         alternate_name: 'Мистер Робот'
+        set:
+          tvdb_id: 289590
+    - 'StartUp (2016)':
+        alternate_name: 'СтартАп'
     - 'Lucifer':
         alternate_name: 'Люцифер'
     - 'Blindspot':
@@ -118,3 +122,5 @@ series:
         alternate_name: "Техкоманда"
     - "Minority Report":
         alternate_name: "Особое мнение"
+    - "MacGyver (2016)":
+        alternate_name: "МакГайвер"

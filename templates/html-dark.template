@@ -11,12 +11,12 @@
 	{% if entry.series_name|d(false) %}
 		{% set unique_id = '%s %s'|format( entry.series_name|re_replace("'|\.|\"", '')|lower, entry.series_id ) %}
 		{% if unique_id not in unique_list %}
-			{% if unique_list.append(unique_id) or tv_shows.append(entry) or dates.append(entry.rss_pubdate|d(now())) %}{% endif %}
+			{% if unique_list.append(unique_id) or tv_shows.append(entry) or dates.append(entry.rss_pubdate) %}{% endif %}
 		{% endif %} 
 	{% else %}
 		{% set unique_id = entry.imdb_name|d('Undefined') %}
 		{% if unique_id not in unique_list %}
-			{% if unique_list.append(unique_id) or movies.append(entry) or dates.append(entry.rss_pubdate|d(now())) %}{% endif %}
+			{% if unique_list.append(unique_id) or movies.append(entry) or dates.append(entry.rss_pubdate) %}{% endif %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
