@@ -1,8 +1,6 @@
 web_server:
   bind: 0.0.0.0
   port: 3539
-api: yes
-webui: yes
 schedules:
   - tasks: '*'
     interval:
@@ -90,7 +88,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=344
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=501
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows
@@ -195,13 +193,6 @@ tasks:
     rutracker_auth:
       username: 'finkelshteinp'
       password: 'zk.,k.vehxbrf'
-    urlrewrite:
-      rutor:
-        regexp: 'http://zerkalo-rutor.org/torrent/(?P<id>)' 
-        format: 'http://zerkalo-rutor.org/download/\g<id>'
-      rutor:
-        regexp: 'http://rutor.org/torrent/(?P<id>)' 
-        format: 'http://d.rutor.org/download/\g<id>'
     include: tvfedor.yml
   #rutracker-films:
     #urlrewrite:
