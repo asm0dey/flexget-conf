@@ -79,6 +79,8 @@ series:
         alternate_name: "Супергёрл"
     - "Frequency":
         alternate_name: "Радиоволна"
+    - "Sherlock":
+        alternate_name: "Шерлок"
   720p:
     - "A Young Doctor's Notebook":
         alternate_name: "Записки юного врача"

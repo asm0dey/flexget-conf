@@ -39,12 +39,9 @@ templates:
         #- mail@example.com
         - ***REMOVED***
         - ***REMOVED***
-      subject: "Недавно скачанные сериалы"
-      template: html-dark
       smtp_host: smtp.yandex.ru
       smtp_port: 465
       smtp_ssl: true
-      smtp_login: true
       smtp_username: "***REMOVED***"
       smtp_password: "***REMOVED***"
        #smtp_ssl: yes
@@ -55,12 +52,9 @@ templates:
       to:
         - ***REMOVED***
         - ***REMOVED***
-      subject: "Недавно скачанные сериалы"
-      template: html
       smtp_host: smtp.yandex.ru
       smtp_port: 465
       smtp_ssl: true
-      smtp_login: true
       smtp_username: "***REMOVED***"
       smtp_password: "***REMOVED***"
       # smtp_ssl: yes
@@ -71,12 +65,9 @@ templates:
       to:
         - ***REMOVED***
         - ***REMOVED***
-      subject: "Недавно скачанные фильмы"
-      template: html
       smtp_host: smtp.yandex.ru
       smtp_port: 465
       smtp_ssl: true
-      smtp_login: true
       smtp_username: "***REMOVED***"
       smtp_password: "***REMOVED***"
       # smtp_ssl: yes
@@ -88,7 +79,7 @@ tasks:
           #replace:
             #format: h264
             #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=501
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=507
     rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
     template:
       - tvshows
