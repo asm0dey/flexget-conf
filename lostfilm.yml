@@ -13,8 +13,6 @@ series:
         alternate_name: 'Флеминг: человек, который хотел стать Бондом'
     - 'Being Human US':
         alternate_name: 'Быть человеком'
-    - 'The 100':
-        alternate_name: 'Сотня'
     - 'Black Sails':
         alternate_name: 'Черные паруса'
     - 'Cult':
@@ -65,8 +63,6 @@ series:
         alternate_name: 'Флэш'
     - "Agent Carter":
         alternate_name: 'Агент Картер'
-    - '12 Monkeys':
-        alternate_name: '12 обезьян'
     - "Killjoys":
         alternate_name: "Киллджойс"
     - 'Extant':
@@ -79,8 +75,12 @@ series:
         alternate_name: "Супергёрл"
     - "Frequency":
         alternate_name: "Радиоволна"
-    - "Sherlock":
-        alternate_name: "Шерлок"
+    - "Beyond":
+        alternate_name: "По ту сторону"
+    - "Taboo":
+        alternate_name: "Табу"
   720p:
     - "A Young Doctor's Notebook":
         alternate_name: "Записки юного врача"
+    - "Sherlock":
+        alternate_name: "Шерлок"

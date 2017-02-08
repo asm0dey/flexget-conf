@@ -1,16 +1,22 @@
 web_server:
   bind: 0.0.0.0
   port: 3539
+  web_ui: yes
 schedules:
   - tasks: '*'
     interval:
       minutes: 10
 templates:
   global:
-    telegram:
-      bot_token: '***REMOVED***'
-      recipients:
-        - username: asm0dey
+    notify:
+      entries:
+        what: accepted
+        via:
+          - telegram:
+              bot_token: '***REMOVED***'
+              recipients:
+                - username: asm0dey
+                - username: marimarco
     make_rss:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
@@ -33,45 +39,59 @@ templates:
       path: '/media/sda3/Video/Series/{{series_name}}/Season {{series_season}}'
     content_size: {max: 4300}
   mailshow:
-    email:
-      from: ***REMOVED***
-      to:
-        #- mail@example.com
-        - ***REMOVED***
-        - ***REMOVED***
-      smtp_host: smtp.yandex.ru
-      smtp_port: 465
-      smtp_ssl: true
-      smtp_username: "***REMOVED***"
-      smtp_password: "***REMOVED***"
-       #smtp_ssl: yes
-      smtp_tls: true
+    notify:
+      task:
+        template: html.template
+        via:
+          - email:
+              from: ***REMOVED***
+              to:
+                #- mail@example.com
+                - ***REMOVED***
+                - ***REMOVED***
+              smtp_host: smtp.yandex.ru
+              smtp_port: 465
+              smtp_ssl: true
+              smtp_username: "***REMOVED***"
+              smtp_password: "***REMOVED***"
+              smtp_tls: no
+              html: yes
   mailpack:
-    email:
-      from: ***REMOVED***
-      to:
-        - ***REMOVED***
-        - ***REMOVED***
-      smtp_host: smtp.yandex.ru
-      smtp_port: 465
-      smtp_ssl: true
-      smtp_username: "***REMOVED***"
-      smtp_password: "***REMOVED***"
-      # smtp_ssl: yes
-      smtp_tls: true
+    notify:
+      task:
+        template: html.template
+        via:
+          - email:
+              from: ***REMOVED***
+              to:
+                #- mail@example.com
+                - ***REMOVED***
+                - ***REMOVED***
+              smtp_host: smtp.yandex.ru
+              smtp_port: 465
+              smtp_ssl: true
+              smtp_username: "***REMOVED***"
+              smtp_password: "***REMOVED***"
+              smtp_tls: no
+              #html: yes
   mailmovie:
-    email:
-      from: ***REMOVED***
-      to:
-        - ***REMOVED***
-        - ***REMOVED***
-      smtp_host: smtp.yandex.ru
-      smtp_port: 465
-      smtp_ssl: true
-      smtp_username: "***REMOVED***"
-      smtp_password: "***REMOVED***"
-      # smtp_ssl: yes
-      smtp_tls: true
+    notify:
+      task:
+        template: html.template
+        via:
+          - email:
+              from: ***REMOVED***
+              to:
+                #- mail@example.com
+                - ***REMOVED***
+                - ***REMOVED***
+              smtp_host: smtp.yandex.ru
+              smtp_port: 465
+              smtp_ssl: true
+              smtp_username: "***REMOVED***"
+              smtp_password: "***REMOVED***"
+              smtp_tls: no
+              #html: yes
 tasks:
   Baibako:
     #manipulate:
@@ -91,7 +111,7 @@ tasks:
       - tvshows
     headers:
       cookie: uid=902055; pass=***REMOVED***; usess=***REMOVED***;
-    rss: http://www.lostfilm.tv/rssdd.xml
+    rss: http://old.lostfilm.tv/rssdd.xml
     manipulate:
       - title:
           replace:

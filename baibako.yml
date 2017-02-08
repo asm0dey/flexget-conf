@@ -62,8 +62,6 @@ series:
         alternate_name: "Последний кандидат"
     - "Graves":
         alternate_name: "Грейвс"
-    - "Berlin Station":
-        alternate_name: "Берлинский отдел"
     - "Quarry":
         alternate_name: "Наёмник Куорри"
     - "The Aliens":
@@ -72,18 +70,12 @@ series:
         alternate_name: "Последний магнат"
     - "Saving Hope":
         alternate_name: "В надежде на спасение"
-    - "The Collection":
-        alternate_name: "Коллекция"
     - "Too Close to Home":
         alternate_name: "Слишком близко к дому"
-    - "The Get Down":
-        alternate_name: "Отжиг"
     - "The Secret Agent":
         alternate_name: "Секретный Агент"
     - "Powers":
         alternate_name: "Сверхсилы"
-    - "Vice Principals":
-        alternate_name: "Завучи"
     - "Feed the Beast":
         alternate_name: "Накорми зверя"
     - "Private Eyes":
@@ -128,3 +120,9 @@ series:
         alternate_name: "Хорошее поведение"
     - "StartUp (2016)":
         alternate_name: "Стартап"
+    - "Him":
+        alternate_name: "Он"
+    - "Six":
+        alternate_name: "Шесть"
+    - "Hooten & the Lady":
+        alternate_name: "Мистер Хутен и Леди"

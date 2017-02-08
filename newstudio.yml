@@ -70,8 +70,6 @@ series:
         alternate_name: 'Зов крови'
     - 'Vikings':
         alternate_name: 'Викинги'
-    - 'Fargo':
-        alternate_name: 'Фарго'
     - '24: Live Another Day':
         alternate_name: '24 часа: Проживи еще один день'
     - 'Once Upon a Time in Wonderland':
@@ -110,8 +108,6 @@ series:
         alternate_name: 'Люцифер'
     - 'Blindspot':
         alternate_name: 'Слепая зона'
-    - 'Gangland Undercover':
-        alternate_name: 'Под прикрытием'
     - 'The American West':
         alternate_name: 'Американский запад'
     - 'How to Get Away with Murder':
@@ -128,11 +124,11 @@ series:
         alternate_name: "Люк Кейдж"
     - "Conviction (2016)":
         alternate_name: "Приговор"
-    - "Chance":
-        alternate_name: "Чанс"
     - "The Young Pope":
         alternate_name: "Молодой Папа"
     - "Dirk Gently’s Holistic Detective Agency":
         alternate_name: "Холистическое Детективное агентство Дирка Джентли"
     - "Shooter (2016)":
         alternate_name: "Стрелок"
+    - "Emerald City":
+        alternate_name: "Изумрудный город"
