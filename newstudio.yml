@@ -62,8 +62,6 @@ series:
         alternate_name: 'Помнить всё'
     - 'Sleepy Hollow':
         alternate_name: 'Сонная Лощина'
-    - 'Brooklyn Nine-Nine':
-        alternate_name: 'Бруклин 9-9'
     - 'Elementary':
         alternate_name: 'Элементарно'
     - 'Lost Girl':
@@ -132,3 +130,12 @@ series:
         alternate_name: "Стрелок"
     - "Emerald City":
         alternate_name: "Изумрудный город"
+  720p:
+    - "The Good Fight (2018)":
+        alternate_name: "Хорошая борьба"
+    - "For the People (2018)":
+        alternate_name: "На стороне народа"
+    - "Young Sheldon (2018)":
+        alternate_name: "Юный Шелдон"
+    - 'Brooklyn Nine-Nine':
+        alternate_name: 'Бруклин 9-9'
