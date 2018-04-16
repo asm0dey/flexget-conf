@@ -14,9 +14,9 @@ templates:
         via:
           - telegram:
               bot_token: '***REMOVED***'
+              parse_mode: markdown
               recipients:
-                - username: asm0dey
-                - username: marimarco
+                - group: asm0dey_series_download
     make_rss:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
@@ -177,17 +177,17 @@ templates:
               smtp_tls: no
               #html: yes
 tasks:
-  Baibako:
+  #Baibako:
     #manipulate:
       #- title:
           #replace:
             #format: h264
             #regexp: x264
     #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=507
-    rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
-    template:
-      - tvshows
-    include: baibako.yml
+    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
+    #template:
+      #- tvshows
+    #include: baibako.yml
   Lostfilm:
     verify_ssl_certificates: no
     #proxy: http://46.28.202.209 :8080
@@ -241,41 +241,41 @@ tasks:
     rss:
       url: http://localhost:5050/http%3A%2F%2Fnewstudio.tv%2Frss.php%3Fuser%3Dasm0dey%26pass%3D***REMOVED***
     include: newstudio.yml
-  Alexfilm:
-    template:
-      - mailpack
-    manipulate:
-      - title:
-          replace:
-            regexp: WEB-DLRip
-            format: 'webdl 480p'
-    set:
-      path: '/media/sda3/Video/Series/{{series_name}}'
-    disable:
-      - seen
-    rss: http://alexfilm.cc/rss.php?uk=***REMOVED***&uid=19403
-    series:
-      <720p:
-        - 'Old School':
-            alternate_name: 'Старая школа'
-        - 'Serangoon Road':
-            alternate_name: 'Серангун Роуд'
-  To4ka:
-    template:
-      - tvshows
-    headers:
-      COOKIE: uid=4693;pass=***REMOVED***
-    rss: http://to4ka.tv/rss.php?passkey=***REMOVED***
-    manipulate:
-      - title:
-          replace:
-            regexp: WEB-DLRip
-            format: 'webdl 480p'
-      - title:
-          replace:
-            regexp: HDTVRip
-            format: 'webdl 480p'
-    include: to4ka.yml
+  #Alexfilm:
+    #template:
+      #- mailpack
+    #manipulate:
+      #- title:
+          #replace:
+            #regexp: WEB-DLRip
+            #format: 'webdl 480p'
+    #set:
+      #path: '/media/sda3/Video/Series/{{series_name}}'
+    #disable:
+      #- seen
+    #rss: http://alexfilm.cc/rss.php?uk=***REMOVED***&uid=19403
+    #series:
+      #<720p:
+        #- 'Old School':
+            #alternate_name: 'Старая школа'
+        #- 'Serangoon Road':
+            #alternate_name: 'Серангун Роуд'
+  #To4ka:
+    #template:
+      #- tvshows
+    #headers:
+      #COOKIE: uid=4693;pass=***REMOVED***
+    #rss: http://to4ka.tv/rss.php?passkey=***REMOVED***
+    #manipulate:
+      #- title:
+          #replace:
+            #regexp: WEB-DLRip
+            #format: 'webdl 480p'
+      #- title:
+          #replace:
+            #regexp: HDTVRip
+            #format: 'webdl 480p'
+    #include: to4ka.yml
   tvfedor:
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
@@ -294,6 +294,18 @@ tasks:
       - tvshows
     rss: http://litr.cc/rss/download/***REMOVED***
     include: litr-lost.yml
+  litr-baib:
+    template:
+      - tvshows
+    rss: http://litr.cc/rss/download/***REMOVED***
+    include: litr-baib.yml
+    manipulate:
+      - title:
+          replace:
+            regexp: 'e(\d{2}-)?(\d{2})'
+            format: 'e\2'
+    set:
+      path: '/media/sda3/Video/Series/{{series_name}}'
   #rutracker-films:
     #urlrewrite:
       #rutracker:

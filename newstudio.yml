@@ -56,8 +56,6 @@ series:
         alternate_name: 'Белый воротничок'
     - 'Golden Boy':
         alternate_name: 'Везунчик'
-    - 'Suits':
-        alternate_name: 'Форс-мажоры'
     - 'Unforgettable':
         alternate_name: 'Помнить всё'
     - 'Sleepy Hollow':
@@ -84,8 +82,6 @@ series:
         alternate_name: 'Чужестранка'
     - 'Forever 2014':
         alternate_name: 'Вечность'
-    - 'Gotham':
-        alternate_name: 'Готэм'
     - 'Stalker':
         alternate_name: 'Сталкер'
     - 'Better Call Saul':
@@ -139,3 +135,9 @@ series:
         alternate_name: "Юный Шелдон"
     - 'Brooklyn Nine-Nine':
         alternate_name: 'Бруклин 9-9'
+    - 'Suits':
+        alternate_name: 'Форс-мажоры'
+    - 'Killing Eve (2018)':
+        alternate_name: 'Убивая Еву'
+    - 'Deep State':
+        alternate_name: 'Теневая власть'
