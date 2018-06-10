@@ -98,10 +98,6 @@ series:
           tvdb_id: 289590
     - 'StartUp (2016)':
         alternate_name: 'СтартАп'
-    - 'Lucifer':
-        alternate_name: 'Люцифер'
-    - 'Blindspot':
-        alternate_name: 'Слепая зона'
     - 'The American West':
         alternate_name: 'Американский запад'
     - 'How to Get Away with Murder':
@@ -112,8 +108,6 @@ series:
         alternate_name: "Техкоманда"
     - "Minority Report":
         alternate_name: "Особое мнение"
-    - "MacGyver (2016)":
-        alternate_name: "МакГайвер"
     - "Marvel's Luke Cage":
         alternate_name: "Люк Кейдж"
     - "Conviction (2016)":
@@ -139,5 +133,11 @@ series:
         alternate_name: 'Форс-мажоры'
     - 'Killing Eve (2018)':
         alternate_name: 'Убивая Еву'
-    - 'Deep State':
-        alternate_name: 'Теневая власть'
+    - 'Rise (2018)':
+        alternate_name: 'Взлёт'
+    - "Station 19":
+        alternate_name: "Станция 19"
+    - The Split (2018):
+        alternate_name: Раскол
+    - A Very English Scandal (2018):
+        alternate_name: Очень английский скандал

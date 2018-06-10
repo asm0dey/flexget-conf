@@ -304,6 +304,18 @@ tasks:
           replace:
             regexp: 'e(\d{2}-)?(\d{2})'
             format: 'e\2'
+      - title:
+          replace:
+            regexp: '/'
+            format: ''
+      - title:
+          replace:
+            regexp: '\[Новинка\]\s+'
+            format: ''
+      - title:
+          replace:
+            regexp: '\[Закрыта\]\s+'
+            format: ''
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
   #rutracker-films:

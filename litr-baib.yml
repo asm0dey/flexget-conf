@@ -1,6 +1,4 @@
 series:
-  - "Station 19":
-      alternate_name: "Станция 19"
   - "Chicago Med":
       alternate_name: "Медики Чикаго"
   - "Scorpion":
@@ -11,15 +9,31 @@ series:
   - "Bull":
       alternate_name: "Булл"
   - "9-1-1"
-  - "The Resident (2018)":
-      alternate_name: "Ординатор"
+  - 'The Resident':
+      alternate_name: 
+        - "Ординатор"
   - "Collateral":
       alternate_name: "Соучастник"
   - "Living Biblically":
       alternate_name: "Жизнь по-библейски"
   - "Life Sentence":
       alternate_name: "Приговорённая к жизни"
-  - "Deception (2018)":
+  - Deception:
       alternate_name: "Обман"
   - "Harrow":
       alternate_name: "Харроу"
+  - The Dangerous Book for Boys:
+      alternate_name: Опасная книга для мальчиков
+  - Code Black:
+      alternate_name: Реанимация
+  - 'Insomnia':
+      set:
+        tvdb_id: 345526
+      alternate_name: 
+        - "Бессонница"
+  - Reverie:
+      alternate_name: Грёзы
+  - Claws:
+      alternate_name: Когти
+  - Impulse:
+      alternate_name: Импульс
