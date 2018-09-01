@@ -137,7 +137,15 @@ series:
         alternate_name: 'Взлёт'
     - "Station 19":
         alternate_name: "Станция 19"
-    - The Split (2018):
-        alternate_name: Раскол
     - A Very English Scandal (2018):
         alternate_name: Очень английский скандал
+    - Condor (2018):
+        alternate_name: Кондор
+    - Cloak & Dagger (2018):
+        alternate_name: Плащ и Кинжал
+    - The Outpost (2018):
+        alternate_name: Застава
+    - Bodyguard (2018):
+        alternate_name: Телохранитель
+    - One Dollar (2018):
+        alternate_name: Один доллар
