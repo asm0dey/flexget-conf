@@ -1,3 +1,4 @@
+---
 series:
   480p:
     - "Containment":
@@ -100,8 +101,6 @@ series:
         alternate_name: 'СтартАп'
     - 'The American West':
         alternate_name: 'Американский запад'
-    - 'How to Get Away with Murder':
-        alternate_name: 'Как избежать наказания за убийство'
     - "Cleverman":
         alternate_name: "Клевермэн"
     - "Roadies":
@@ -149,3 +148,11 @@ series:
         alternate_name: Телохранитель
     - One Dollar (2018):
         alternate_name: Один доллар
+    - Vanity Fair (2018):
+        alternate_name: Ярмарка тщеславия
+    - Black Earth Rising (2018):
+        alternate_name: Восход чёрной земли
+    - Press (2018):
+        alternate_name: Пресса
+
+# vim: noai:ts=2:sw=2:et:

@@ -41,3 +41,19 @@ series:
       alternate_name: Люк Кейдж
   - Yellowstone:
       alternate_name: Йеллоустоун
+  - Jack Ryan:
+      alternate_name: Джек Райан
+  - God Friended Me:
+      alternate_name: Бог меня зафрендил
+  - YOU:
+      alternate_name: ТЫ
+  - How to Get Away with Murder:
+      alternate_name: Как избежать наказания за убийство
+  - FBI:
+      alternate_name: ФБР
+  - Manifest:
+      alternate_name: Манифест
+  - The Good Doctor:
+      alternate_name: Хороший доктор
+
+# vim: noai:ts=2:sw=2:et:

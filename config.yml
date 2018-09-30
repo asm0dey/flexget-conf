@@ -1,7 +1,7 @@
 web_server:
   bind: 0.0.0.0
   port: 3539
-  web_ui: yes
+  run_v2: true
 schedules:
   - tasks: '*'
     interval:
@@ -341,3 +341,5 @@ tasks:
       #- mailmovie
     #disable:
       #- seen_info_hash
+
+# vim: noai:ts=2:sw=2:et:
