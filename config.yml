@@ -1,3 +1,4 @@
+variables: secrets.yml
 web_server:
   bind: 0.0.0.0
   port: 3539
@@ -8,23 +9,13 @@ schedules:
       minutes: 10
 templates:
   global:
-    notify:
-      entries:
-        what: accepted
-        via:
-          - telegram:
-              bot_token: '***REMOVED***'
-              parse_mode: markdown
-              recipients:
-                - group: asm0dey_series_download
     make_rss:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
       items: 200
-    #deluge: yes
     transmission:
-      username: transmission
-      password: transmission
+      username: '{? transmission.usr ?}'
+      password: '{? transmission.pwd ?}'
     manipulate:
       - url:
           replace:
@@ -108,15 +99,12 @@ templates:
         via:
           - email:
               from: ***REMOVED***
-              to:
-                #- mail@example.com
-                - ***REMOVED***
-                - ***REMOVED***
+              to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
               smtp_ssl: true
-              smtp_username: "***REMOVED***"
-              smtp_password: "***REMOVED***"
+              smtp_username: '{? email.usr ?}'
+              smtp_password: '{? email.pwd ?}'
               smtp_tls: no
               html: yes
   mailpack:
@@ -126,15 +114,12 @@ templates:
         via:
           - email:
               from: ***REMOVED***
-              to:
-                #- mail@example.com
-                - ***REMOVED***
-                - ***REMOVED***
+              to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
               smtp_ssl: true
-              smtp_username: "***REMOVED***"
-              smtp_password: "***REMOVED***"
+              smtp_username: '{? email.usr ?}'
+              smtp_password: '{? email.pwd ?}'
               smtp_tls: no
               #html: yes
   mailmovie:
@@ -144,59 +129,15 @@ templates:
         via:
           - email:
               from: ***REMOVED***
-              to:
-                #- mail@example.com
-                - ***REMOVED***
-                - ***REMOVED***
+              to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
               smtp_ssl: true
-              smtp_username: "***REMOVED***"
-              smtp_password: "***REMOVED***"
+              smtp_username: '{? email.usr ?}'
+              smtp_password: '{? email.pwd ?}'
               smtp_tls: no
               #html: yes
 tasks:
-  #Baibako:
-    #manipulate:
-      #- title:
-          #replace:
-            #format: h264
-            #regexp: x264
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***&cat=507
-    #rss: http://baibako.tv/rss2.php?feed=dl&passkey=***REMOVED***
-    #template:
-      #- tvshows
-    #include: baibako.yml
-  Lostfilm:
-    verify_ssl_certificates: no
-    #proxy: http://46.28.202.209 :8080
-    template:
-      - tvshows
-    headers:
-      cookie: uid=902055; pass=***REMOVED***; usess=***REMOVED***;
-    rss: http://old.lostfilm.tv/rssdd.xml
-    manipulate:
-      - title:
-          replace:
-            regexp: MP4
-            format: 720p
-      - title:
-          replace:
-            regexp: \)\.\s\(
-            format: ') [webdl 480p]. ('
-      - title:
-          replace:
-            regexp: '[0-9]\.\s\('
-            format: ') [webdl 480p]. ('
-      - title:
-          replace:
-            regexp: '[^\]]\.\s\(S'
-            format: '. [webdl 480p]. (S'
-    urlrewrite:
-      lostfilm:
-        regexp: 'http://lostfilm.tv/download.php\?(?P<details>.*)'
-        format: 'http://www.lostfilm.tv/download.php?\g<details>'
-    include: lostfilm.yml
   Newstudio:
     template:
       - tvshows
@@ -218,65 +159,17 @@ tasks:
             regexp: 'newstud\.io'
             format: 'newstudio.tv'
     rss:
-      url: http://localhost:5050/http%3A%2F%2Fnewstudio.tv%2Frss.php%3Fuser%3Dasm0dey%26pass%3D***REMOVED***
+      url: '{? newstudio.address ?}'
     include: newstudio.yml
-  #Alexfilm:
-    #template:
-      #- mailpack
-    #manipulate:
-      #- title:
-          #replace:
-            #regexp: WEB-DLRip
-            #format: 'webdl 480p'
-    #set:
-      #path: '/media/sda3/Video/Series/{{series_name}}'
-    #disable:
-      #- seen
-    #rss: http://alexfilm.cc/rss.php?uk=***REMOVED***&uid=19403
-    #series:
-      #<720p:
-        #- 'Old School':
-            #alternate_name: 'Старая школа'
-        #- 'Serangoon Road':
-            #alternate_name: 'Серангун Роуд'
-  #To4ka:
-    #template:
-      #- tvshows
-    #headers:
-      #COOKIE: uid=4693;pass=***REMOVED***
-    #rss: http://to4ka.tv/rss.php?passkey=***REMOVED***
-    #manipulate:
-      #- title:
-          #replace:
-            #regexp: WEB-DLRip
-            #format: 'webdl 480p'
-      #- title:
-          #replace:
-            #regexp: HDTVRip
-            #format: 'webdl 480p'
-    #include: to4ka.yml
-  tvfedor:
-    set:
-      path: '/media/sda3/Video/Series/{{series_name}}'
-      accept_all: yes
-    template:
-      - mailpack
-    rss: http://litr.cc/rss/download/***REMOVED***
-    disable:
-      - seen
-    rutracker_auth:
-      username: 'finkelshteinp'
-      password: 'zk.,k.vehxbrf'
-    include: tvfedor.yml
-  litr-lost:
+  litr-lostfile:
     template:
       - tvshows
-    rss: http://litr.cc/rss/download/***REMOVED***
+    rss: '{? litr.address ?}'
     include: litr-lost.yml
-  litr-baib:
+  litr-baibako:
     template:
       - tvshows
-    rss: http://litr.cc/rss/download/***REMOVED***
+    rss: '{? litr.address ?}'
     include: litr-baib.yml
     manipulate:
       - title:
@@ -297,28 +190,5 @@ tasks:
             format: ''
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
-  #rutracker-films:
-    #urlrewrite:
-      #rutracker:
-        #regexp: '^(?P<id>\d+)$'
-        #format: 'http://rutracker.org/forum/viewtopic.php?t=\g<id>'
-    #csv:
-      #url: file:///home/xbmc/.flexget/rutracker-films.csv
-      #values:
-        #title: 2
-        #url: 1
-        #imdb_name: 2
-    #thetvdb_lookup: no
-    #rutracker_auth:
-      #username: 'finkelshteinp'
-      #password: 'zk.,k.vehxbrf'
-    #imdb_lookup: yes
-    #set:
-      #path: '/media/sda3/Video/Films/{{title}}'
-    #accept_all: yes
-    #template:
-      #- mailmovie
-    #disable:
-      #- seen_info_hash
 
 # vim: noai:ts=2:sw=2:et:
