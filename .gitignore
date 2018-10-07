@@ -1,0 +1,8 @@
+.config-lock
+*.log
+*.log.*
+*.sqlite
+received/
+cached_resources/
+.gitsecret/keys/random_seed
+secrets.yml
