@@ -160,6 +160,7 @@ tasks:
             format: 'newstudio.tv'
     rss:
       url: '{? newstudio.address ?}'
+      escape: yes
     include: newstudio.yml
   litr-lostfile:
     template:

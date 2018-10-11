@@ -37,8 +37,8 @@ series:
         alternate_name: 'Тайные связи'
     - 'The Good Wife':
         alternate_name: 'Хорошая жена'
-    - 'The Neighbors':
-        alternate_name: 'Соседи'
+    #- 'The Neighbors':
+        #alternate_name: 'Соседи'
     - 'Ripper Street':
         alternate_name: 'Улица потрошителя'
     - 'Person of Interest':
@@ -158,5 +158,7 @@ series:
         alternate_name: Частный детектив Магнум
     - New Amsterdam (2018):
         alternate_name: Новый Амстердам
+    - The Neighborhood (2018):
+        alternate_name: Соседи
 
 # vim: noai:ts=2:sw=2:et:
