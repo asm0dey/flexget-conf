@@ -6,3 +6,4 @@ received/
 cached_resources/
 .gitsecret/keys/random_seed
 secrets.yml
+db-config.sqlite-journal
