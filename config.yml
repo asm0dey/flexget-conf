@@ -162,7 +162,7 @@ tasks:
       url: '{? newstudio.address ?}'
       escape: yes
     include: newstudio.yml
-  litr-lostfile:
+  litr-lostfilm:
     template:
       - tvshows
     rss: '{? litr.address ?}'
@@ -191,5 +191,22 @@ tasks:
             format: ''
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
+  litr-rutr:
+    template:
+      - tvshows
+    rss: '{? litr.address ?}'
+    set:
+      path: '/media/sda3/Video/Series/{{series_name}}'
+    manipulate:
+      - title:
+          replace:
+            regexp: 'Сезон: (\d+) / Серии: 1-(\d+) из \d+'
+            format: 's\1e\2'
+    series:
+      - The Big Bang Theory:
+          alternate_name: Теория Большого Взрыва
+
+
+
 
 # vim: noai:ts=2:sw=2:et:

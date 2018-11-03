@@ -55,5 +55,11 @@ series:
       alternate_name: Манифест
   - The Good Doctor:
       alternate_name: Хороший доктор
+  - Station 19:
+      alternate_name: Станция 19
+  - Mr. Inbetween:
+      alternate_name: Посредник
+  - All American:
+      alternate_name: Стопроцентный американец
 
 # vim: noai:ts=2:sw=2:et:
