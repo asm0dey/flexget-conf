@@ -49,8 +49,6 @@ series:
         alternate_name: 'Люди будущего'
     - 'Almost Human':
         alternate_name: 'Почти человек'
-    - 'House of Cards US':
-        alternate_name: 'Карточный домик'
     - 'The Crazy Ones':
         alternate_name: 'Сумасшедшие'
     - 'White Collar':
@@ -79,16 +77,12 @@ series:
         alternate_name: 'Ты - Отстой'
     - "The Knick":
         alternate_name: 'Больница Ник'
-    - 'Outlander':
-        alternate_name: 'Чужестранка'
     - 'Forever 2014':
         alternate_name: 'Вечность'
     - 'Stalker':
         alternate_name: 'Сталкер'
     - 'Better Call Saul':
         alternate_name: 'Лучше звоните Солу'
-    - "Marvel's Daredevil":
-        alternate_name: 'Сорвиголова'
     - 'American Odyssey':
         alternate_name: 'Американская Одиссея'
     - 'The Whispers':
@@ -160,7 +154,7 @@ series:
         alternate_name: Новый Амстердам
     - The Neighborhood (2018):
         alternate_name: Соседи
-    - The Romanoffs (2018):
-        alternate_name: Романовы
+    - Innocent (2018):
+        alternate_name: Невиновный
 
 # vim: noai:ts=2:sw=2:et:
