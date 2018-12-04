@@ -15,5 +15,7 @@ series:
         alternate_name: Лучше звоните Солу
     - The Rookie:
         alternate_name: Новобранец
+    - Mr. Inbetween:
+        alternate_name: Посредник
 
 # vim: noai:ts=2:sw=2:et:
