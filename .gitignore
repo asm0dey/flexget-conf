@@ -8,3 +8,4 @@ cached_resources/
 secrets.yml
 db-config.sqlite-journal
 crash*
+db-config.sqlite
