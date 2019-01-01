@@ -40,7 +40,7 @@ templates:
         template: html.template
         via:
           - email:
-              from: ***REMOVED***
+              from: film-notify@asm0dey.ru
               to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
@@ -55,7 +55,7 @@ templates:
         template: html.template
         via:
           - email:
-              from: ***REMOVED***
+              from: film-notify@asm0dey.ru
               to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
@@ -70,7 +70,7 @@ templates:
         template: html.template
         via:
           - email:
-              from: ***REMOVED***
+              from: film-notify@asm0dey.ru
               to: '{? email.to ?}'
               smtp_host: smtp.yandex.ru
               smtp_port: 465
