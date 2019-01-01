@@ -13,9 +13,14 @@ templates:
       file: /home/xbmc/public_html/flexget.rss
       days: -1
       items: 200
-    transmission:
-      username: '{? transmission.usr ?}'
-      password: '{? transmission.pwd ?}'
+    qbittorrent:
+      host: localhost
+      port: 9999
+    #rtorrent:
+      #uri: scgi://localhost:5001
+    #transmission:
+      #username: '{? transmission.usr ?}'
+      #password: '{? transmission.pwd ?}'
     manipulate:
       - url:
           replace:
@@ -151,9 +156,5 @@ tasks:
     set:
       path: '/media/sda3/Video/Films/{{ title }}'
     accept_all: yes
-
-
-
-
 
 # vim: noai:ts=2:sw=2:et:

@@ -1,0 +1,29 @@
+variables: secrets.yml
+tasks:
+  transmission_to_rtorrent:
+    manual: yes
+    from_transmission:
+      username: '{? transmission.usr ?}'
+      password: '{? transmission.pwd ?}'
+      onlycomplete: no
+    set:
+      path: "{{ transmission_downloadDir }}"
+    seen: local
+    accept_all: yes
+    rtorrent:
+      uri: scgi://localhost:5001
+  transmission_to_qbittorrent:
+    manual: yes
+    from_transmission:
+      username: '{? transmission.usr ?}'
+      password: '{? transmission.pwd ?}'
+      onlycomplete: no
+    set:
+      path: "{{ transmission_downloadDir }}"
+    seen: local
+    accept_all: yes
+    qbittorrent:
+      host: localhost
+      port: 9999
+
+# vim: noai:ts=2:sw=2:et:
