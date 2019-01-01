@@ -1,1 +1,2 @@
 secrets.yml.secret filter=lfs diff=lfs merge=lfs -text
+db-config.sqlite.secret filter=lfs diff=lfs merge=lfs -text
