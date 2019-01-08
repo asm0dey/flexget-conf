@@ -65,5 +65,7 @@ series:
       alternate_name: Чёрный понедельник
   - Heimebane:
       alternate_name: На своём поле
+  - The ABC Murders:
+      alternate_name: Убийства по алфавиту
 
 # vim: noai:ts=2:sw=2:et:
