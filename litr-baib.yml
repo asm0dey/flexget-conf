@@ -69,5 +69,7 @@ series:
       alternate_name: Убийства по алфавиту
   - Sex Education:
       alternate_name: Половое воспитание
+  - Cleaning Up:
+      alternate_name: Уборка
 
 # vim: noai:ts=2:sw=2:et:

@@ -159,5 +159,7 @@ series:
         alternate_name: Берлинские псЫ
     - Les Misérables:
         alternate_name: Отверженные
+    - The Passage (2019):
+        alternate_name: Перерождение
 
 # vim: noai:ts=2:sw=2:et:
