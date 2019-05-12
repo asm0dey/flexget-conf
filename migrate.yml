@@ -5,7 +5,7 @@ tasks:
     from_transmission:
       username: '{? transmission.usr ?}'
       password: '{? transmission.pwd ?}'
-      onlycomplete: no
+      #onlycomplete: no
     set:
       path: "{{ transmission_downloadDir }}"
     seen: local
@@ -17,7 +17,7 @@ tasks:
     from_transmission:
       username: '{? transmission.usr ?}'
       password: '{? transmission.pwd ?}'
-      onlycomplete: no
+      #onlycomplete: no
     set:
       path: "{{ transmission_downloadDir }}"
     seen: local

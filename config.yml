@@ -1,18 +1,18 @@
 variables: secrets.yml
-web_server:
-  bind: 0.0.0.0
-  port: 3539
-  run_v2: true
 schedules:
   - tasks: '*'
     interval:
       minutes: 10
+web_server:
+  bind: 0.0.0.0
+  port: 3539
+  run_v2: true
 templates:
   global:
-    make_rss:
-      file: /home/xbmc/public_html/flexget.rss
-      days: -1
-      items: 200
+    #make_rss:
+      #file: /home/xbmc/public_html/flexget.rss
+      #days: -1
+      #items: 200
     #qbittorrent:
       #host: localhost
       #port: 9999

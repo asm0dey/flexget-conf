@@ -19,5 +19,7 @@ series:
         alternate_name: Посредник
     - Escape at Dannemora:
         alternate_name: Побег из Даннеморы
+    - 'Happy!':
+        alternate_name: 'Хэппи!'
 
 # vim: noai:ts=2:sw=2:et:
