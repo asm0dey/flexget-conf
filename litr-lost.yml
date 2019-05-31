@@ -21,5 +21,9 @@ series:
         alternate_name: Побег из Даннеморы
     - 'Happy!':
         alternate_name: 'Хэппи!'
+    - Catch-22:
+        alternate_name: Уловка-22
+    - Sneaky Pete:
+        alternate_name: Подлый Пит
 
 # vim: noai:ts=2:sw=2:et:

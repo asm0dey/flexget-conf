@@ -24,6 +24,8 @@ tasks:
     accept_all: yes
     qbittorrent:
       host: localhost
-      port: 9999
+      port: 8080
+      username: admin
+      password: adminadmin
 
 # vim: noai:ts=2:sw=2:et:
