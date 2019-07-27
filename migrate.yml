@@ -28,4 +28,17 @@ tasks:
       username: admin
       password: adminadmin
 
+  transmission_to_deluge:
+    manual: yes
+    from_transmission:
+      username: '{? transmission.usr ?}'
+      password: '{? transmission.pwd ?}'
+      #onlycomplete: no
+    set:
+      path: "{{ transmission_downloadDir }}"
+    seen: local
+    accept_all: yes
+    deluge:
+      username: '{? deluge.username ?}'
+      password: '{? deluge.password ?}'
 # vim: noai:ts=2:sw=2:et:

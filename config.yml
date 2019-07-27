@@ -18,9 +18,12 @@ templates:
       #port: 9999
     #rtorrent:
       #uri: scgi://localhost:5001
-    transmission:
-      username: '{? transmission.usr ?}'
-      password: '{? transmission.pwd ?}'
+    #transmission:
+      #username: '{? transmission.usr ?}'
+      #password: '{? transmission.pwd ?}'
+    deluge:
+      username: '{? deluge.username ?}'
+      password: '{? deluge.password ?}'
     manipulate:
       - url:
           replace:
