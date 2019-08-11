@@ -148,14 +148,26 @@ tasks:
       path: '/media/sda3/Video/Series/{{series_name}}'
       qbittorrent:
         path: '/media/sda3/Video/Series/{{series_name}}'
+  lutik:
+    template:
+      - tvshows
+    rss: '{? lutik.address ?}'
+    set:
+      path: '/media/sda3/Video/Series/{{series_name}}'
+    include: lutik.yml
+    seen:
+      fields: [title]
+    manipulate:
+      - title:
+          replace:
+            regexp: '. Серия (\d+)x(\d+)'
+            format: ' (s\1e\2)'
   litr-rutr:
     template:
       - tvshows
     rss: '{? litr.address ?}'
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
-      qbittorrent:
-        path: '/media/sda3/Video/Series/{{series_name}}'
     manipulate:
       - title:
           replace:
