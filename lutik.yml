@@ -5,3 +5,15 @@ series:
       alternate_name: Риф-брейк
   - Pearson:
       alternate_name: Пирсон
+  - Four Weddings and a Funeral:
+      alternate_name: Четыре свадьбы и одни похороны
+  - 'Blood & Treasure':
+      alternate_name: Кровь и сокровища
+  - Instinct:
+      alternate_name: Инстинкт
+      set:
+        path: '/media/sda3/Video/Series/{{series_name}} (2018)'
+  - Why Women Kill:
+      alternate_name: Почему женщины убивают
+  - Treadstone:
+      alternate_name: Тредстоун

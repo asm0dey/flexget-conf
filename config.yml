@@ -37,8 +37,6 @@ templates:
       - mailshow
     set:
       path: '/media/sda3/Video/Series/{{series_name}}/Season {{series_season}}'
-      qbittorrent:
-        path: '/media/sda3/Video/Series/{{series_name}}/Season {{series_season}}'
   mailshow:
     notify:
       task:
@@ -146,8 +144,6 @@ tasks:
             format: ''
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
-      qbittorrent:
-        path: '/media/sda3/Video/Series/{{series_name}}'
   lutik:
     template:
       - tvshows
@@ -184,8 +180,6 @@ tasks:
         url: 2
     set:
       path: '/media/sda3/Video/Films/{{ title }}'
-      qbittorrent:
-        path: '/media/sda3/Video/Films/{{ title }}'
     accept_all: yes
 
 # vim: noai:ts=2:sw=2:et:
