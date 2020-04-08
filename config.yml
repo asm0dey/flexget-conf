@@ -5,8 +5,8 @@ schedules:
       minutes: 10
 web_server:
   bind: 0.0.0.0
+  web_ui: yes
   port: 3539
-  run_v2: true
 templates:
   global:
     #make_rss:
