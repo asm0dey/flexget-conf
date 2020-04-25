@@ -86,45 +86,19 @@ tasks:
   Newstudio:
     template:
       - tvshows
-    manipulate:
-      - url:
-          replace:
-            regexp: '&amp;'
-            format: '&'
-      - title:
-          replace:
-            regexp: 'Сезон\s(\d+),\sСерия\s(\d+)'
-            format: s\1e\2
-      - title:
-          replace:
-            regexp: Rip
-            format: ' 480p'
-      - url:
-          replace:
-            regexp: 'newstud\.io'
-            format: 'newstudio.tv'
     rss:
       url: '{? newstudio.address ?}'
-      escape: yes
     include: newstudio.yml
-    add_trackers:
-      - 'http://newstudio.tv:2710/{? newstudio.pass ?}/announce'
-  litr-lostfilm:
+  lostfilm:
+    rss:
+      url: '{? lostfilm.url ?}'
     template:
       - tvshows
-    rss: '{? litr.address ?}'
     include: litr-lost.yml
-    add_trackers:
-      - 'http://bt99.tracktor.in/tracker.php/{? litr.pass ?}/announce'
-      - 'http://bt0.tracktor.in/tracker.php/{? litr.pass ?}/announce'
-      - 'http://bt11.tracktor.in/tracker.php/{? litr.pass ?}/announce'
   litr-baibako:
-    add_trackers:
-      - 'http://www.baibako.tv/announce.php?passkey={? baibako.pass ?}'
     template:
       - tvshows
-    rss: '{? litr.address ?}'
-    include: litr-baib.yml
+    rss: '{? baibako.url ?}'
     manipulate:
       - title:
           replace:
@@ -142,6 +116,7 @@ tasks:
           replace:
             regexp: '\[Закрыта\]\s+'
             format: ''
+    include: litr-baib.yml
     set:
       path: '/media/sda3/Video/Series/{{series_name}}'
   lutik:
@@ -172,6 +147,8 @@ tasks:
     series:
       - The Big Bang Theory:
           alternate_name: Теория Большого Взрыва
+      - Call The Midwife:
+          alternate_name: Вызовите акушерку
   rutr-films:
     csv:
       url: file:///home/xbmc/.flexget/films.csv

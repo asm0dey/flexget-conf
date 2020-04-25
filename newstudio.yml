@@ -179,7 +179,9 @@ series:
         alternate_name: "9-1-1: Одинокая звезда"
     - Little Fires Everywhere (2020):
         alternate_name: И повсюду тлеют пожары
-    #- Reef Break (2019):
-        #alternate_name: Риф-брейк
+    - The English Game (2020):
+        alternate_name: Английская игра
+    - The Baker and The Beauty (2020):
+        alternate_name: Пекарь и Красавица
 
 # vim: noai:ts=2:sw=2:et:
