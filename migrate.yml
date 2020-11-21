@@ -5,13 +5,14 @@ tasks:
     from_transmission:
       username: '{? transmission.usr ?}'
       password: '{? transmission.pwd ?}'
+      port: 8093
       #onlycomplete: no
     set:
       path: "{{ transmission_downloadDir }}"
     seen: local
     accept_all: yes
     rtorrent:
-      uri: scgi://localhost:5001
+      uri: /media/sda3/rtorrent/main.sock
   transmission_to_qbittorrent:
     manual: yes
     from_transmission:
@@ -33,6 +34,7 @@ tasks:
     from_transmission:
       username: '{? transmission.usr ?}'
       password: '{? transmission.pwd ?}'
+      port: 8093
       #onlycomplete: no
     set:
       path: "{{ transmission_downloadDir }}"
@@ -41,4 +43,20 @@ tasks:
     deluge:
       username: '{? deluge.username ?}'
       password: '{? deluge.password ?}'
-# vim: noai:ts=2:sw=2:et:
+
+  deluge_to_transmission:
+    manual: yes
+    from_deluge:
+      config_path: "/home/xbmc/.config/deluge"
+    set:
+      path: "{{deluge_save_path}}"
+    seen: local
+    accept_all: yes
+    deluge: no
+    transmission:
+      username: '{? transmission.usr ?}'
+      password: '{? transmission.pwd ?}'
+      port: 8093
+    disable:
+      - seen
+      - seen_info_hash

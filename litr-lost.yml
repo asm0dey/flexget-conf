@@ -32,5 +32,8 @@ series:
         alternate_name: Столик в углу
     - The Take:
         alternate_name: "Прикуп"
+  1080p:
+    - Brave New World:
+        alternate_name: Дивный новый мир
 
 # vim: noai:ts=2:sw=2:et:

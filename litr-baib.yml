@@ -1,106 +1,107 @@
 series:
-  - "Chicago Med":
-      alternate_name: "Медики Чикаго"
-  - "Scorpion":
-      alternate_name: 
-        - "Скорпион"
-  - "Marvel’s Jessica Jones":
-      alternate_name: "Джессика Джонс"
-  - "Bull":
-      alternate_name: "Булл"
-  - "9-1-1"
-  - 'The Resident':
-      alternate_name: 
-        - "Ординатор"
-  - "Collateral":
-      alternate_name: "Соучастник"
-  - "Living Biblically":
-      alternate_name: "Жизнь по-библейски"
-  - "Life Sentence":
-      alternate_name: "Приговорённая к жизни"
-  - Deception:
-      alternate_name: "Обман"
-  - "Harrow":
-      alternate_name: "Харроу"
-  - The Dangerous Book for Boys:
-      alternate_name: Опасная книга для мальчиков
-  - Code Black:
-      alternate_name: Реанимация
-  - 'Insomnia':
-      set:
-        tvdb_id: 345526
-      alternate_name: 
-        - "Бессонница"
-  - Reverie:
-      alternate_name: Грёзы
-  - Claws:
-      alternate_name: Когти
-  - Impulse:
-      alternate_name: Импульс
-  - "Marvel's Luke Cage":
-      alternate_name: Люк Кейдж
-  - Yellowstone:
-      alternate_name: Йеллоустоун
-  - Jack Ryan:
-      alternate_name: Джек Райан
-  - God Friended Me:
-      alternate_name: Бог меня зафрендил
-  - YOU:
-      alternate_name: ТЫ
-  - How to Get Away with Murder:
-      alternate_name: Как избежать наказания за убийство
-  - FBI:
-      alternate_name: ФБР
-  - Manifest:
-      alternate_name: Манифест
-  - The Good Doctor:
-      alternate_name: Хороший доктор
-  - Station 19:
-      alternate_name: Станция 19
-  - All American:
-      alternate_name: Стопроцентный американец
-  - Deadly Class:
-      alternate_name: Академия смерти
-  - Black Monday:
-      alternate_name: Чёрный понедельник
-  - Heimebane:
-      alternate_name: На своём поле
-  - The ABC Murders:
-      alternate_name: Убийства по алфавиту
-  - Sex Education:
-      alternate_name: Половое воспитание
-  - Cleaning Up:
-      alternate_name: Уборка
-  - I Am the Night:
-      alternate_name: 'Я - ночь'
-  - Dirty John:
-      alternate_name: Грязный Джон
-  - Proven Innocent:
-      alternate_name: Признан невиновным
-  - Miracle Workers:
-      alternate_name: Чудотворцы
-  - Doom Patrol:
-      alternate_name: Роковой патруль
-  - The Code:
-      alternate_name: Кодекс
-  - Chernobyl:
-      alternate_name: Чернобыль
-  - Hatton Garden:
-      alternate_name: Хаттон Гарден
-  - City on a Hill:
-      alternate_name: Город на холме
-  - Perpetual Grace LTD:
-      alternate_name: Предприятие Божий дар
-  - All Rise:
-      alternate_name: Всем встать
-  - Prodigal Son:
-      alternate_name: Блудный сын
-  - Devs:
-      alternate_name: Разрабы
-  - Miss Scarlet and the Duke:
-      alternate_name: Мисс Скарлет и Герцог
-  - For Life:
-      alternate_name: Пожизненно
-  - Stumptown:
-      alternate_name: Стамптаун
+  1080p:
+    - "Chicago Med":
+        alternate_name: "Медики Чикаго"
+    - "Scorpion":
+        alternate_name: 
+          - "Скорпион"
+    - "Marvel’s Jessica Jones":
+        alternate_name: "Джессика Джонс"
+    - "Bull":
+        alternate_name: "Булл"
+    - "9-1-1"
+    - 'The Resident':
+        alternate_name: 
+          - "Ординатор"
+    - "Collateral":
+        alternate_name: "Соучастник"
+    - "Living Biblically":
+        alternate_name: "Жизнь по-библейски"
+    - "Life Sentence":
+        alternate_name: "Приговорённая к жизни"
+    - Deception:
+        alternate_name: "Обман"
+    - "Harrow":
+        alternate_name: "Харроу"
+    - The Dangerous Book for Boys:
+        alternate_name: Опасная книга для мальчиков
+    - Code Black:
+        alternate_name: Реанимация
+    - 'Insomnia':
+        set:
+          tvdb_id: 345526
+        alternate_name: 
+          - "Бессонница"
+    - Reverie:
+        alternate_name: Грёзы
+    - Claws:
+        alternate_name: Когти
+    - Impulse:
+        alternate_name: Импульс
+    - "Marvel's Luke Cage":
+        alternate_name: Люк Кейдж
+    - Yellowstone:
+        alternate_name: Йеллоустоун
+    - Jack Ryan:
+        alternate_name: Джек Райан
+    - God Friended Me:
+        alternate_name: Бог меня зафрендил
+    - YOU:
+        alternate_name: ТЫ
+    - How to Get Away with Murder:
+        alternate_name: Как избежать наказания за убийство
+    - FBI:
+        alternate_name: ФБР
+    - Manifest:
+        alternate_name: Манифест
+    - The Good Doctor:
+        alternate_name: Хороший доктор
+    - Station 19:
+        alternate_name: Станция 19
+    - All American:
+        alternate_name: Стопроцентный американец
+    - Deadly Class:
+        alternate_name: Академия смерти
+    - Black Monday:
+        alternate_name: Чёрный понедельник
+    - Heimebane:
+        alternate_name: На своём поле
+    - The ABC Murders:
+        alternate_name: Убийства по алфавиту
+    - Sex Education:
+        alternate_name: Половое воспитание
+    - Cleaning Up:
+        alternate_name: Уборка
+    - I Am the Night:
+        alternate_name: 'Я - ночь'
+    - Dirty John:
+        alternate_name: Грязный Джон
+    - Proven Innocent:
+        alternate_name: Признан невиновным
+    - Miracle Workers:
+        alternate_name: Чудотворцы
+    - Doom Patrol:
+        alternate_name: Роковой патруль
+    - The Code:
+        alternate_name: Кодекс
+    - Chernobyl:
+        alternate_name: Чернобыль
+    - Hatton Garden:
+        alternate_name: Хаттон Гарден
+    - City on a Hill:
+        alternate_name: Город на холме
+    - Perpetual Grace LTD:
+        alternate_name: Предприятие Божий дар
+    - All Rise:
+        alternate_name: Всем встать
+    - Prodigal Son:
+        alternate_name: Блудный сын
+    - Devs:
+        alternate_name: Разрабы
+    - Miss Scarlet and the Duke:
+        alternate_name: Мисс Скарлет и Герцог
+    - For Life:
+        alternate_name: Пожизненно
+    - Stumptown:
+        alternate_name: Стамптаун
 

@@ -3,10 +3,6 @@ schedules:
   - tasks: '*'
     interval:
       minutes: 10
-web_server:
-  bind: 0.0.0.0
-  web_ui: yes
-  port: 3539
 templates:
   global:
     #make_rss:
@@ -21,6 +17,7 @@ templates:
     #transmission:
       #username: '{? transmission.usr ?}'
       #password: '{? transmission.pwd ?}'
+      #port: 8093
     deluge:
       username: '{? deluge.username ?}'
       password: '{? deluge.password ?}'
